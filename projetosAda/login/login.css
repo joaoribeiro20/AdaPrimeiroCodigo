@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.txth{
+    
+    margin: 30px;
+    height: 20px;
+   
+    position: relative;
+}
+.txtp{
+    
+    margin: 30px;
+    height: 20px;
+    font-size: larger;
+    color: rgb(18, 176, 176);
+   
+    position: relative;
+}
+h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 45px
+}
+.entrada{
+    width: 100%;
+    height: 20px;
+    margin: 20px;   
+}
+.bot{
+    width: 100%;
+    height: 30px;
+    margin: 20px;
+    background-color: blueviolet;
+ 
+}
+ul{
+    background-color: blueviolet;
+    height: 300px;
+    padding: auto;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+
+    
+}
+
+
+
+
+
+.page-content{
+    height: 100vh;
+    display: grid;
+}
+main{
+    grid-area: title;
+   
+}
+aside{
+    grid-area: login;
+}
+
+footer{
+    grid-area: footer;
+}
+
+@media screen and (min-width:1024px){
+    .page-content{
+        display: grid;
+
+        grid-template-areas:
+        ". . . . . ."
+        ". title title . . ."
+        ". title title login login ."
+        ". title title login login ."
+        ". title title login login ."
+        "footer footer footer footer footer footer"
+        "footer footer footer footer footer footer"
+        ;
+    }
+    
+}

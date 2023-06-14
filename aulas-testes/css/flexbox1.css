@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu{   
+    position: fixed;
+    background-color: blueviolet;
+    width: 100%;
+    z-index: 1;
+    
+
+}
+
+
+
+.boxes{
+
+display: flex;
+position: relative;
+flex-wrap: wrap;
+
+}
+
+.box{
+    position: relative;
+    height: 45px;
+    width: 100px;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    color: aliceblue;
+    background-color: blue;
+    border: 15px solid red;
+    display: inline-block;
+    flex: 30%;
+    
+}

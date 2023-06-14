@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h2{
+    font-size: 50px;
+    PSO
+}
+
+main{
+    grid-area: txt;
+}
+aside{
+    grid-area: img;
+}
+.content{
+    display: grid;
+    grid-template-areas:
+    "txt txt img"
+    "txt txt img"
+    "txt txt img"
+}

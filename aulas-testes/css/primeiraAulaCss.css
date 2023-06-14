@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+h1{
+    color: blueviolet;
+    font-size: 96px;
+    font-weight: 900; /* espressura da funte */
+    background-color: black;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h2{
+
+}
+
+a{
+    font-size: 40px;
+    color: cornflowerblue;
+}
+a:visited{/*pseudo-class = visited, hover ...*/
+    color: red;
+}
+a:hover{ /* tem se seguir uma ordem certa, tem q vim depois do a ou do a:visited */
+    color: blue;
+}
+
+.bg{
+    height: 300px; /*espaço destidado para o item dentro da pagina, "espeaço total da caixa/div"*/
+    width: 100%; /*espaço destidado para o item, espeaço total da caixa/div*/
+    background-color: green;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoYII_eDVmo72g0luM6-iDbgGbOYmSwUtf0g&usqp=CAU');
+    background-size: cover; /*tamnaho do item dentro da caixa */
+    background-repeat: no-repeat;/*caso o iten chegue ao fim pode ser que ele se repita ou não*/
+    background-position: center;/*centralizar ou escolher posição do item dentro da caixa/div, so serve para os item dentro da div/caixa*/
+    background-attachment: fixed; /*fixa na posição inicial a div/caixa, nem todos exploradores funciona*/
+    
+    
+}

@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    height: 100px;
+    width: 200px;
+    margin: 15px; /*atua visualmente por fora */
+    padding: 15px; /* atua visualmente por dentro */
+    border: 2px solid red;
+    border-radius: 0.4rem;
+    display: inline-block; /*por padrão a div é display block, dessa forma ocupando uma linha toda*/
+}
+
+img{
+
+    height: 10rem;
+}

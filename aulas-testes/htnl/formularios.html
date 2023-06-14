@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+
+        <h1>formulario</h1>
+        <hr>
+
+        <form>
+          <div>
+            <!-- o id tem que ser igual ao for -->
+            <label for="texto">input de texto</label>
+            <input type="text" id="texto" name="nome">
+            <!-- <input type="text" id="texto" placeholder="Informe seu nome...."> -->
+          </div>
+
+          <div>
+            <label for="senha">senha</label>
+            <input type="password" id="senha" name="senha">
+          </div>
+
+          <div>
+            <label for="email">e-mail</label>
+            <input type="email" name="email" id="email">
+          </div>
+
+          <div>
+            <label for="date">data de nascimento</label>
+            <input type="date" name="data" id="data">
+          </div>
+
+          <div>
+            <label for="hora">horario</label>
+            <input type="time" name="hora" id="hora">
+          </div>
+
+          <div>
+            <label for="arquivo">arquivo</label>
+            <input type="file" name="arquivo" id="arquivo">
+          </div>
+
+          <div>
+            <label for=""></label>
+            <input type="color" name="" id="">
+          </div>
+
+          <div>
+            <label for=""></label>
+            <input type="checkbox" name="" id="">
+          </div>
+
+          <div>
+            <label for=""></label>
+            <input type="radio" name="" id="">
+          </div>
+
+          <div>
+            <label for=""></label>
+            <input type="range" name="" id="" value="100" max="200">
+          </div>
+
+          
+
+         
+         <div>
+            <!-- foi adicionado uma div aqui porque ela quebra linha, assim deixando o select em baixo -->
+          <select name="select" id="select">
+            <!-- valeu é oq vai ser realmente enviado ja o texto é oque cai ficar visivel -->
+            <option value="" disabled selected >selecione uma das opçoes</option>
+            <option value="doce">Doce</option>
+            <option value="salgado">Salgado</option>
+            <option value="fruta">Fruta</option>
+          </select>
+         </div>
+         
+          <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+           <div>
+            <!--  -->
+            <!-- <label for="enviar">enviar formulario</label> -->
+            <input type="submit" name="enviar" id="enviar" value="enviar">
+          </div>
+
+          <div>
+            <label for="">limpar</label>
+            <input type="reset" name="" id="" value="limpar formulario">
+          </div>
+        </form>
+    </main>
+    
+</body>
+</html>
